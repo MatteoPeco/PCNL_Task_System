@@ -38,7 +38,7 @@ The performance metrics evaluated include:
 # Getting Started
 To use the system, follow these steps:
 
-1. Clone the repository: git clone https://github.com/username/repository.git
+1. Clone the repository: git clone https://github.com/MatteoPeco/PCNL_Task_System.git
 2. Install the necessary dependencies and libraries as mentioned in the documentation.
 3. Run the main application and follow the instructions provided in the user manual.
 
