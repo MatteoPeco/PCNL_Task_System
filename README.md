@@ -1,3 +1,44 @@
-# PCNL_Task_System
-Augmented Reality and Robot-Assisted Needle Insertion for Percutaneous Nephrolithotomy Task
-prova
+## Augmented Reality Guided Percutaneous Nephrolithotomy (PCNL)
+This repository contains the implementation of an Augmented Reality (AR) visualization-based path planning and navigation system for Percutaneous Nephrolithotomy (PCNL) with robotic-guided needle insertion. The aim of this project is to improve the PCNL procedure by reducing the surgeon's workload and achieving better insertion accuracy.
+
+# Introduction
+PCNL is considered the gold standard for treating patients with kidney stones larger than 20mm. It is a minimally invasive surgical procedure that involves inserting a nephroscope into the kidney to break up the stone and suction out the pieces. However, there are limitations to the procedure, including the surgeon's workload and challenges in precise needle insertion.
+
+To address these limitations, this project proposes an AR-based system that provides real-time visualization and guidance during the PCNL procedure. The system utilizes pre-operative MRI or CT scan images to generate a 3D model and plan the desired path. During the intra-operative phase, the surgeon uses an Optical See Through - Head Mounted Display (OST-HMD) to perform real-time registration and visualize the 3D model hologram superimposed on the patient. The surgeon can validate and adjust the pre-planned path based on intra-operative images and is assisted by a serial robot for needle insertion.
+
+System Architecture
+The proposed system architecture is divided into two phases: the pre-operative and intra-operative phases.
+
+During the pre-operative phase:
+
+MRI or CT scan images of the patient are segmented to generate a 3D model.
+The desired path for needle insertion is planned based on the 3D model.
+During the intra-operative phase:
+
+The surgeon uses an OST-HMD to perform real-time registration and visualize the 3D model hologram superimposed on the patient.
+The surgeon validates and adjusts the pre-planned path based on intra-operative images.
+A serial robot assists the surgeon during needle insertion, following the pre-planned path.
+The system relies on an Optical Tracker (OT) for system calibration and to measure the accuracy. It also utilizes QR code markers and fiducial markers on a phantom model for accurate registration.
+
+Experimental Validation
+The system's performance and usability were evaluated through experiments involving 14 users with no prior surgery or AR headset experience. The users performed the needle insertion procedure using four different system setups: screen-based manual setup, AR-based manual setup, screen-based + robot assistance setup, and AR-based + robot assistance setup. Each setup was repeated three times, and the users' insertion accuracy was measured.
+
+The performance metrics evaluated include:
+
+Phantom registration accuracy: Measuring the positioning error between physical markers and their holographic counterparts.
+Robot registration accuracy: Measuring the accuracy of coordinate transformations between the robot and OST-HMD.
+Insertion procedure accuracy: Assessing the accuracy of needle insertion along the pre-planned path.
+Usability: Gathering qualitative feedback through a questionnaire to evaluate the user's workload during the tasks.
+Repository Structure
+src/: Contains the source code for the AR visualization-based path planning and navigation system.
+data/: Includes sample MRI or CT scan images and 3D models for testing and demonstration purposes.
+docs/: Contains the documentation and user manual for the system.
+videos/: Includes demo videos showcasing the system in action.
+Getting Started
+To use the system, follow these steps:
+
+Clone the repository: git clone https://github.com/username/repository.git
+Install the necessary dependencies and libraries as mentioned in the documentation.
+Run the main application and follow the instructions provided in the user manual.
+Contributions
+Contributions to the project are welcome. If you find any issues or have suggestions for improvements
