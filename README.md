@@ -24,15 +24,16 @@ The system's performance and usability were evaluated through experiments involv
 
 The performance metrics evaluated include:
 
-Phantom registration accuracy: Measuring the positioning error between physical markers and their holographic counterparts.
-Robot registration accuracy: Measuring the accuracy of coordinate transformations between the robot and OST-HMD.
-Insertion procedure accuracy: Assessing the accuracy of needle insertion along the pre-planned path.
-Usability: Gathering qualitative feedback through a questionnaire to evaluate the user's workload during the tasks.
-Repository Structure
-src/: Contains the source code for the AR visualization-based path planning and navigation system.
-data/: Includes sample MRI or CT scan images and 3D models for testing and demonstration purposes.
-docs/: Contains the documentation and user manual for the system.
-videos/: Includes demo videos showcasing the system in action.
+- Phantom registration accuracy: Measuring the positioning error between physical markers and their holographic counterparts.
+- Robot registration accuracy: Measuring the accuracy of coordinate transformations between the robot and OST-HMD.
+- Insertion procedure accuracy: Assessing the accuracy of needle insertion along the pre-planned path.
+- Usability: Gathering qualitative feedback through a questionnaire to evaluate the user's workload during the tasks.
+
+# Repository Structure
+- src/: Contains the source code for the AR visualization-based path planning and navigation system.
+- data/: Includes sample MRI or CT scan images and 3D models for testing and demonstration purposes.
+- docs/: Contains the documentation and user manual for the system.
+- videos/: Includes demo videos showcasing the system in action.
 
 # Getting Started
 To use the system, follow these steps:
