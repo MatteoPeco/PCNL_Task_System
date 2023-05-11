@@ -38,7 +38,7 @@ The performance metrics evaluated include:
 # Getting Started
 To use the system, follow these steps:
 
-Clone the repository: git clone https://github.com/username/repository.git
-Install the necessary dependencies and libraries as mentioned in the documentation.
-Run the main application and follow the instructions provided in the user manual.
+1. Clone the repository: git clone https://github.com/username/repository.git
+2. Install the necessary dependencies and libraries as mentioned in the documentation.
+3. Run the main application and follow the instructions provided in the user manual.
 
