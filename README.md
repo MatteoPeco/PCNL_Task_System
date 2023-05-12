@@ -1,6 +1,6 @@
 # Augmented Reality Guided Percutaneous Nephrolithotomy (PCNL)
 <p align="center">
-  <img src="./images/SystemCover.png" alt="Alt Text">
+  <img src="./images/logoPolitecnicoNearlab.PNG" alt="Alt Text">
 </p>
 This repository contains the implementation of an Augmented Reality (AR) visualization-based path planning and navigation system for Percutaneous Nephrolithotomy (PCNL) with robotic-guided needle insertion. The aim of this project is to improve the PCNL procedure by reducing the surgeon's workload and achieving better insertion accuracy.
 
