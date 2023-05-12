@@ -1,0 +1,13 @@
+# Specify the code owners for different file patterns
+
+# Assign MatteoPeco as the owner for all files in the repository
+*    @MatteoPeco
+
+# Assign MatteoPeco as the owner for all Markdown files
+*.md    @MatteoPeco
+
+# Assign the team "developers" as the owner for all JavaScript files
+*.js    @MatteoPeco
+
+# Assign Alice and Bob as the owners for the main.py file
+main.py    @MatteoPeco
