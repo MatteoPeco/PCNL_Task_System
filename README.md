@@ -45,8 +45,7 @@ The performance metrics evaluated include:
 - Usability: Gathering qualitative feedback through a questionnaire to evaluate the user's workload during the tasks.
 
 # Repository Structure
-- src/: Contains the source code for the AR visualization-based path planning and navigation system.
-- data/: Includes sample MRI or CT scan images and 3D models for testing and demonstration purposes.
+- src/: Contains the source code for the AR visualization-based path planning and navigation system and the robot control.
 - docs/: Contains the documentation and user manual for the system.
 - videos/: Includes demo videos showcasing the system in action.
 
