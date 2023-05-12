@@ -1,4 +1,4 @@
-# Augmented Reality Guided Percutaneous Nephrolithotomy (PCNL)
+# Augmented Reality and Robot-Assisted Needle Insertion for Percutaneous Nephrolithotomy Task
 <p align="center">
   <img src="./images/logoPolitecnicoNearlab.PNG" alt="Alt Text">
 </p>
