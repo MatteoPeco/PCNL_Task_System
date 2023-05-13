@@ -21,13 +21,15 @@ To address these limitations, this project proposes an AR-based system that prov
 The proposed system architecture is divided into two phases: the pre-operative and intra-operative phases.
 
 During the pre-operative phase:
-- MRI or CT scan images of the patient are segmented to generate a 3D model.
-- The desired path for needle insertion is planned based on the 3D model.
+1. MRI or CT scan images of the patient are acquired 
+2. The images are segmented to generate a 3D model.
+3. The desired path for needle insertion is planned based on the 3D model.
 
 During the intra-operative phase:
-- The surgeon uses an OST-HMD to perform real-time registration and visualize the 3D model hologram superimposed on the patient.
-- The surgeon validates and adjusts the pre-planned path based on intra-operative images.
-- A serial robot assists the surgeon during needle insertion, following the pre-planned path.
+4. The surgeon uses an OST-HMD to perform real-time registration 
+5. The surgeon visualize the 3D model hologram superimposed on the patient and validates and adjusts the pre-planned path based on intra-operative images.
+6. A serial robot assists the surgeon during needle insertion, following the pre-planned path.
+
 The system relies on an Optical Tracker (OT) for system calibration and to measure the accuracy. It also utilizes QR code markers and fiducial markers on a phantom model   for accurate registration.
 
 <p align="center">
