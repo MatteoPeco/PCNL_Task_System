@@ -40,6 +40,9 @@ The system relies on an Optical Tracker (OT) for system calibration and to measu
   <video src="./videos/System_Demo.mp4" width=180/>
 </p>
 
+![Game Process](https://github.com/MatteoPeco/PCNL_Task_System/tree/main/videos/System_Demo.mp4)
+
+
 ## Experimental Validation
 The system's performance and usability were evaluated through experiments involving 14 users with no prior surgery or AR headset experience. The users performed the needle insertion procedure using four different system setups: screen-based manual setup, AR-based manual setup, screen-based + robot assistance setup, and AR-based + robot assistance setup. Each setup was repeated three times, and the users' insertion accuracy was measured.
 
