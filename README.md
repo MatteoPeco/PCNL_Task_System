@@ -24,6 +24,7 @@ During the pre-operative phase:
 1. MRI or CT scan images of the patient are acquired 
 2. The images are segmented to generate a 3D model.
 3. The desired path for needle insertion is planned based on the 3D model.
+
 During the intra-operative phase:
 
 4. The surgeon uses an OST-HMD to perform real-time registration 
