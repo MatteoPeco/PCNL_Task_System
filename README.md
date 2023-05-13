@@ -39,10 +39,10 @@ The system relies on an Optical Tracker (OT) for system calibration and to measu
 
 ## Demo video
 
+Preview:
+https://github.com/MatteoPeco/PCNL_Task_System/assets/94977542/e4aa9d01-229f-4f62-9c8b-fe553e3f999b
 
-
-https://github.com/MatteoPeco/PCNL_Task_System/assets/94977542/f3805fb7-adda-40f6-b90d-fded30348d26
-
+Complete demo video at:   <iframe src="https://drive.google.com/file/d/VIDEO_ID/preview" width="640" height="480" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
 ## Experimental Validation
