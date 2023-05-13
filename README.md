@@ -27,8 +27,8 @@ During the pre-operative phase:
 
 During the intra-operative phase:
 4. The surgeon uses an OST-HMD to perform real-time registration 
-5. The surgeon visualize the 3D model hologram superimposed on the patient and validates and adjusts the pre-planned path based on intra-operative images.
-6. A serial robot assists the surgeon during needle insertion, following the pre-planned path.
+6. The surgeon visualize the 3D model hologram superimposed on the patient and validates and adjusts the pre-planned path based on intra-operative images.
+7. A serial robot assists the surgeon during needle insertion, following the pre-planned path.
 
 The system relies on an Optical Tracker (OT) for system calibration and to measure the accuracy. It also utilizes QR code markers and fiducial markers on a phantom model   for accurate registration.
 
