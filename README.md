@@ -37,7 +37,7 @@ The system relies on an Optical Tracker (OT) for system calibration and to measu
 ## Demo video
 
 <p align="center">
-  <img src="./videos/System_Demo.mp4" alt="Alt Text">
+  <img src="https://drive.google.com/uc?export=download&id=1Bb8xHS0bwqG7Qv82C1dTycltremJzU55" alt="Alt Text">
 </p>
 
 ## Experimental Validation
