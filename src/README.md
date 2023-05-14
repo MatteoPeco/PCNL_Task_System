@@ -20,6 +20,10 @@ To successfully utilize this project, make sure you have the following hardware 
 
 ## Communication protocol 
 
+<p align="center">
+  <img src="./images/CommunicationProtocol.png" alt="Alt Text" style="width: 600px;">
+</p>
+
 ## Installation and Usage
 Please refer to the specific subdirectories (`Unity_Project/` and `catkin_ws/`) for detailed installation and usage instructions.
 
