@@ -52,10 +52,8 @@ Complete demo video at:
 ## Experimental Validation
 The system's performance and usability were evaluated through experiments involving 14 users with no prior surgery or AR headset experience. The users performed the needle insertion procedure using four different system setups: screen-based manual setup, AR-based manual setup, screen-based + robot assistance setup, and AR-based + robot assistance setup. Each setup was repeated three times, and the users' insertion accuracy was measured.
 
-The performance metrics evaluated include:
+The performance metrics shown below include:
 
-- Phantom registration accuracy: Measuring the positioning error between physical markers and their holographic counterparts.
-- Robot registration accuracy: Measuring the accuracy of coordinate transformations between the robot and OST-HMD.
 - Insertion procedure accuracy: Assessing the accuracy of needle insertion along the pre-planned path.
 - Usability: Gathering qualitative feedback through a questionnaire to evaluate the user's workload during the tasks.
 
