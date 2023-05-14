@@ -51,7 +51,7 @@ Complete demo video at:
 </p>
 
 ## Experimental Validation
-The system's performance and usability were evaluated through experiments involving 14 users with no prior surgery or AR headset experience. The users performed the needle insertion procedure using four different system setups: screen-based manual setup, AR-based manual setup, screen-based + robot assistance setup, and AR-based + robot assistance setup. Each setup was repeated three times, and the users' insertion accuracy was measured.
+The system's performance and usability were evaluated through experiments involving 14 users with no prior surgery or AR headset experience. The users performed the needle insertion procedure using four different system setups: screen-based manual setup (SM), AR-based manual setup (AM), screen-based + robot assistance setup (SA), and AR-based + robot assistance setup (AA). Each setup was repeated three times, and the users' insertion accuracy was measured.
 
 The performance metrics shown below include:
 
@@ -62,7 +62,8 @@ The performance metrics shown below include:
 
 - Insertion procedure accuracy: 
   - Translation error from the target (median ± std.) -> 3.2 ± 1.4 mm 
-  - Orientation error with respect to the pre-planned path (median ± std.)->  1.2 ± 0.9° 
+  - Orientation error with respect to the pre-planned path (median ± std.) ->  1.2 ± 0.9° 
+- Usability: The qualitative feedback gathered through the user questionnaire shown that the proposed system (AA) had the _highest_ usability compared to all the other setups, inclusding the setup emulating the operating room (SM).
 
 ## Repository Structure
 - src/: Contains the unity project to be uploaded in the Hololens2 and the ROS catkin_ws for the robot control.
