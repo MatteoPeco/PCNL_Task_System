@@ -1,0 +1,8 @@
+prefix=/home/poskuka-nearlab/catkin_ws/devel
+
+Name: cartesian_position_node
+Description: Description of cartesian_position_node
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

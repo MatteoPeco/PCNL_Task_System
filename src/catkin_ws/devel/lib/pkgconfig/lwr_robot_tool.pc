@@ -1,0 +1,8 @@
+prefix=/home/poskuka-nearlab/catkin_ws/devel
+
+Name: lwr_robot_tool
+Description: Description of lwr_robot_tool
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/poskuka-nearlab/catkin_ws/devel
+
+Name: single_lwr_launch
+Description: Description of single_lwr_launch
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
