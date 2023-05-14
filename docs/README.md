@@ -14,7 +14,9 @@
   - Robot control startegy: 
   
     _Stage1_: Needle free manipulation
+    
     _Stage2_: Robot stiffening 
+    
     _Stage3_: Cartesian impedence controller implementation
     
   ## Control startegy demo video:
