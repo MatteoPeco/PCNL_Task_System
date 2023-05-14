@@ -22,8 +22,3 @@ To successfully utilize this project, make sure you have the following hardware 
 
 ![Communication Protocol](https://github.com/MatteoPeco/PCNL_Task_System/assets/94977542/b264d963-5744-41c7-a9d4-d20f4ae1917f)
 
-## Installation and Usage
-Please refer to the specific subdirectories (`Unity_Project/` and `catkin_ws/`) for detailed installation and usage instructions.
-
-## License
-This project is licensed under the [MIT License](LICENSE).
