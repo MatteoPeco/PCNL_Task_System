@@ -10,4 +10,13 @@
   <img src="https://github.com/MatteoPeco/PCNL_Task_System/assets/94977542/b79576a7-f6bc-4ef0-b8da-2cd35f1caec3" alt="scanButton" width="400px">
 </p>
 
-- __Robot aligned button:__ the robot aligned button, when pressed, 
+- __Robot aligned button:__ the robot aligned button, when pressed, allows the user to change the robot control stage.
+  - Robot control startegy: 
+    _Stage1_: Needle free manipulation
+    _Stage2_: Robot stiffening 
+    _Stage3_: Cartesian impedence controller implementation
+    
+  ## Control startegy demo video:
+
+https://github.com/MatteoPeco/PCNL_Task_System/assets/94977542/5bbc4775-fbc1-4ed2-b603-1e1672d3d1b8
+
