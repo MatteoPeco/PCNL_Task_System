@@ -61,6 +61,7 @@ The performance metrics evaluated include:
 
 # Repository Structure
 - src/: Contains the unity project to be uploaded in the Hololens2 and the ROS catkin_ws for the robot control.
+- images/: Contains the images of the repository.
 - docs/: Contains the documentation and user manual for the system.
 - videos/: Includes demo videos showcasing the system in action.
 
