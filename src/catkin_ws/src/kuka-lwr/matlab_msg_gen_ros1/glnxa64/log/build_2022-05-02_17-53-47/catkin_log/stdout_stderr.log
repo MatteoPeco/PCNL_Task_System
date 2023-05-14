@@ -1,0 +1,198 @@
+ROS_DISTRO was set to 'kinetic' before. Please make sure that the environment does not mix paths from different distributions.
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/devel
+-- Using CMAKE_PREFIX_PATH: /usr/local/MATLAB/R2021a/sys/ros1/glnxa64/ros1;/usr/local/MATLAB/R2021a/toolbox/ros/mlroscpp/custom_messages
+-- This workspace overlays: /usr/local/MATLAB/R2021a/sys/ros1/glnxa64/ros1;/usr/local/MATLAB/R2021a/toolbox/ros/mlroscpp/custom_messages
+-- Found PythonInterp: /home/nearlab/.matlab/R2021a/ros1/glnxa64/venv/bin/python2 (found suitable version "2.7.12", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /home/nearlab/.matlab/R2021a/ros1/glnxa64/venv/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: off
+-- catkin 0.7.17
+-- BUILD_SHARED_LIBS is on
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 1 packages in topological order:
+-- ~~  - lwr_controllers
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'lwr_controllers'
+-- ==> add_subdirectory(lwr_controllers)
+-- Disabling the following message generators: geneus;genlisp;gennodejs
+-- Using these message generators: gencpp;genpy
+-- lwr_controllers: 6 messages, 1 services
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    Boost_NAMESPACE
+
+
+-- Build files have been written to: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/build
+[1/32] cd /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/build/lwr_controllers && /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/nearlab/.matlab/R2021a/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py lwr_controllers /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/src/lwr_controllers/srv/SetCartesianImpedanceCommand.srv lwr_controllers/CartesianImpedancePoint:geometry_msgs/Vector3:geometry_msgs/Wrench:lwr_controllers/Stiffness:std_msgs/Header:geometry_msgs/Point:geometry_msgs/Quaternion:geometry_msgs/Pose
+[2/32] cd /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/build/lwr_controllers && /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/nearlab/.matlab/R2021a/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py lwr_controllers /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/src/lwr_controllers/msg/RPY.msg
+[3/32] cd /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/build/lwr_controllers && /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/nearlab/.matlab/R2021a/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py lwr_controllers /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/src/lwr_controllers/msg/Stiffness.msg
+[4/32] cd /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/build/lwr_controllers && /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/nearlab/.matlab/R2021a/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py lwr_controllers /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/src/lwr_controllers/msg/CartesianImpedancePoint.msg geometry_msgs/Wrench:geometry_msgs/Vector3:lwr_controllers/Stiffness:std_msgs/Header:geometry_msgs/Point:geometry_msgs/Quaternion:geometry_msgs/Pose
+[5/32] cd /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/build/lwr_controllers && /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/nearlab/.matlab/R2021a/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py lwr_controllers /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/src/lwr_controllers/msg/ArmState.msg geometry_msgs/Wrench:geometry_msgs/Vector3:std_msgs/Header
+[6/32] cd /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/build/lwr_controllers && /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/nearlab/.matlab/R2021a/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py lwr_controllers /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/src/lwr_controllers/msg/PoseRPY.msg geometry_msgs/Vector3:lwr_controllers/RPY
+[7/32] cd /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/build/lwr_controllers && /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/nearlab/.matlab/R2021a/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py lwr_controllers /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/src/lwr_controllers/msg/MultiPriorityTask.msg
+[8/32] Generating C++ code from lwr_controllers/ArmState.msg
+[9/32] Generating Python from MSG lwr_controllers/PoseRPY
+[10/32] Generating C++ code from lwr_controllers/RPY.msg
+[11/32] Generating C++ code from lwr_controllers/MultiPriorityTask.msg
+[12/32] Generating C++ code from lwr_controllers/Stiffness.msg
+[13/32] Generating Python from MSG lwr_controllers/MultiPriorityTask
+[14/32] Generating Python from MSG lwr_controllers/Stiffness
+[15/32] Generating Python from MSG lwr_controllers/CartesianImpedancePoint
+[16/32] Generating Python from MSG lwr_controllers/RPY
+[17/32] Generating C++ code from lwr_controllers/PoseRPY.msg
+[18/32] Generating Python code from SRV lwr_controllers/SetCartesianImpedanceCommand
+[19/32] Generating Python from MSG lwr_controllers/ArmState
+[20/32] Generating C++ code from lwr_controllers/CartesianImpedancePoint.msg
+[21/32] Generating C++ code from lwr_controllers/SetCartesianImpedanceCommand.srv
+[22/32] Generating Python msg __init__.py for lwr_controllers
+[23/32] Generating Python srv __init__.py for lwr_controllers
+[24/32] Building CXX object lwr_controllers/CMakeFiles/lwr_controllers_matlab.dir/src/lwr_controllers_RPY_message.cpp.o
+[25/32] Building CXX object lwr_controllers/CMakeFiles/lwr_controllers_matlab.dir/src/lwr_controllers_Stiffness_message.cpp.o
+[26/32] Building CXX object lwr_controllers/CMakeFiles/lwr_controllers_matlab.dir/src/lwr_controllers_CartesianImpedancePoint_message.cpp.o
+[27/32] Building CXX object lwr_controllers/CMakeFiles/lwr_controllers_matlab.dir/src/lwr_controllers_PoseRPY_message.cpp.o
+[28/32] Building CXX object lwr_controllers/CMakeFiles/lwr_controllers_matlab.dir/src/lwr_controllers_MultiPriorityTask_message.cpp.o
+[29/32] Building CXX object lwr_controllers/CMakeFiles/lwr_controllers_matlab.dir/src/lwr_controllers_ArmState_message.cpp.o
+[30/32] Building CXX object lwr_controllers/CMakeFiles/lwr_controllers_matlab.dir/src/lwr_controllers_SetCartesianImpedanceCommand_service.cpp.o
+[31/32] Linking CXX shared library /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/devel/lib/liblwr_controllers_matlab.so
+[31/32] Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/_setup_util.py
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/env.sh
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/setup.bash
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/local_setup.bash
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/setup.sh
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/local_setup.sh
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/setup.zsh
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/local_setup.zsh
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/.rosinstall
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/share/lwr_controllers/msg/ArmState.msg
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/share/lwr_controllers/msg/CartesianImpedancePoint.msg
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/share/lwr_controllers/msg/MultiPriorityTask.msg
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/share/lwr_controllers/msg/PoseRPY.msg
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/share/lwr_controllers/msg/RPY.msg
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/share/lwr_controllers/msg/Stiffness.msg
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/share/lwr_controllers/srv/SetCartesianImpedanceCommand.srv
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/share/lwr_controllers/cmake/lwr_controllers-msg-paths.cmake
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/include/lwr_controllers
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/include/lwr_controllers/RPY.h
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/include/lwr_controllers/MultiPriorityTask.h
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/include/lwr_controllers/CartesianImpedancePoint.h
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/include/lwr_controllers/SetCartesianImpedanceCommand.h
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/include/lwr_controllers/SetCartesianImpedanceCommandRequest.h
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/include/lwr_controllers/PoseRPY.h
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/include/lwr_controllers/ArmState.h
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/include/lwr_controllers/Stiffness.h
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/include/lwr_controllers/SetCartesianImpedanceCommandResponse.h
+Listing /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/lwr_controllers ...
+Compiling /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/lwr_controllers/__init__.py ...
+Listing /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/lwr_controllers/msg ...
+Compiling /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/lwr_controllers/msg/_ArmState.py ...
+Compiling /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/lwr_controllers/msg/_CartesianImpedancePoint.py ...
+Compiling /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/lwr_controllers/msg/_MultiPriorityTask.py ...
+Compiling /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/lwr_controllers/msg/_PoseRPY.py ...
+Compiling /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/lwr_controllers/msg/_RPY.py ...
+Compiling /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/lwr_controllers/msg/_Stiffness.py ...
+Compiling /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/lwr_controllers/msg/__init__.py ...
+Listing /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/lwr_controllers/srv ...
+Compiling /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/lwr_controllers/srv/_SetCartesianImpedanceCommand.py ...
+Compiling /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/lwr_controllers/srv/__init__.py ...
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/lwr_controllers
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/lwr_controllers/msg
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/lwr_controllers/msg/_Stiffness.py
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/lwr_controllers/msg/_ArmState.py
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/lwr_controllers/msg/_MultiPriorityTask.pyc
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/lwr_controllers/msg/_PoseRPY.pyc
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/lwr_controllers/msg/_RPY.py
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/lwr_controllers/msg/_CartesianImpedancePoint.pyc
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/lwr_controllers/msg/_RPY.pyc
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/lwr_controllers/msg/__init__.pyc
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/lwr_controllers/msg/_Stiffness.pyc
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/lwr_controllers/msg/_CartesianImpedancePoint.py
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/lwr_controllers/msg/_MultiPriorityTask.py
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/lwr_controllers/msg/_PoseRPY.py
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/lwr_controllers/msg/_ArmState.pyc
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/lwr_controllers/msg/__init__.py
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/lwr_controllers/__init__.pyc
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/lwr_controllers/srv
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/lwr_controllers/srv/_SetCartesianImpedanceCommand.py
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/lwr_controllers/srv/__init__.pyc
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/lwr_controllers/srv/_SetCartesianImpedanceCommand.pyc
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/lwr_controllers/srv/__init__.py
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/lwr_controllers/__init__.py
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/lib/pkgconfig/lwr_controllers.pc
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/share/lwr_controllers/cmake/lwr_controllers-msg-extras.cmake
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/share/lwr_controllers/cmake/lwr_controllersConfig.cmake
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/share/lwr_controllers/cmake/lwr_controllersConfig-version.cmake
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/share/lwr_controllers/package.xml
+-- Up-to-date: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/include
+-- Up-to-date: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/include/lwr_controllers
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/include/lwr_controllers/visibility_control.h
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/lib/liblwr_controllers_matlab.so
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/m/
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/m//+ros
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+lwr_controllers
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+lwr_controllers/rPY.m
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+lwr_controllers/armState.m
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+lwr_controllers/setCartesianImpedanceCommandRequest.m
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+lwr_controllers/cartesianImpedancePoint.m
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+lwr_controllers/multiPriorityTask.m
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+lwr_controllers/poseRPY.m
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+lwr_controllers/stiffness.m
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+lwr_controllers/setCartesianImpedanceCommandResponse.m
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+lwr_controllers
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+lwr_controllers/ArmState.m
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+lwr_controllers/SetCartesianImpedanceCommandRequest.m
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+lwr_controllers/MultiPriorityTask.m
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+lwr_controllers/PoseRPY.m
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+lwr_controllers/RPY.m
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+lwr_controllers/CartesianImpedancePoint.m
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+lwr_controllers/SetCartesianImpedanceCommandResponse.m
+-- Installing: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+lwr_controllers/Stiffness.m
+Base path: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64
+Source space: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/src
+Build space: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/build
+Devel space: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/devel
+Install space: /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install
+Creating symlink "/home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/src/CMakeLists.txt" pointing to "/usr/local/MATLAB/R2021a/sys/ros1/glnxa64/ros1/share/catkin/cmake/toplevel.cmake"
+####
+#### Running command: "cmake /home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/src -DBoost_NAMESPACE=mwboost -DCATKIN_ENABLE_TESTING=off -DCMAKE_PREFIX_PATH=/usr/local/MATLAB/R2021a/sys/ros1/glnxa64/ros1;/usr/local/MATLAB/R2021a/toolbox/ros/mlroscpp/custom_messages -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS_RELEASE=-O0 -DCATKIN_DEVEL_PREFIX=/home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/devel -DCMAKE_INSTALL_PREFIX=/home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/install -G Ninja" in "/home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/build"
+####
+####
+#### Running command: "ninja install install -j16 -l16" in "/home/nearlab/catkin_ws/src/kuka-lwr/matlab_msg_gen_ros1/glnxa64/build"
+####
