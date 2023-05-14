@@ -27,6 +27,8 @@
     
    When the robot is in _Stage3_, its stage can be brought to _Stage1_ by simply pressing the __Cancel__ button appearing in place of the __Robot aligned__ button.
    
-- __Lens button:__
+- __Lens button:__ the button with the lens icon must be pressed only when there is a tcp_ip server running in MATLAB on the machine with the IP indicated below the lens, this will send the orientation of the robot EE to the MATLAB script in order to compute the orientation error of the insertion procedure.
+
+- __Gear button:__ the 
    
 
