@@ -13,11 +13,11 @@
 - __Robot aligned button:__ the robot aligned button, when pressed, allows the user to change the robot control stage.
   - Robot control startegy: 
   
-    _Stage1_: Needle free manipulation
+    _Stage1_: Needle free manipulation.
     
-    _Stage2_: Robot stiffening 
+    _Stage2_: Robot stiffening, is the stage in which by pressing the Robot align button, the user sets a small stiffness along the needle direction.
     
-    _Stage3_: Cartesian impedence controller implementation
+    _Stage3_: Cartesian impedence controller implementation.
     
   ## Control startegy demo video:
   
