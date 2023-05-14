@@ -23,7 +23,7 @@
   
      https://github.com/MatteoPeco/PCNL_Task_System/assets/94977542/748ac946-7058-4d55-b964-a1a99df154df 
 
-    Observation: in the demo video the user is using an interface running in the unity play mode on the PC, the result is the same as the hololens application
+      Observation: in the demo video the user is using an interface running in the unity play mode on the PC, the result is the same as the hololens application
     
    When the robot is in _Stage3_, its stage can be brought to _Stage1_ by simply pressing the __Cancel__ button appearing in place of the __Robot aligned__ button.
    
