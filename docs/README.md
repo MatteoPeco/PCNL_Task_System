@@ -10,3 +10,4 @@
   <img src="https://github.com/MatteoPeco/PCNL_Task_System/assets/94977542/b79576a7-f6bc-4ef0-b8da-2cd35f1caec3" alt="scanButton" width="400px">
 </p>
 
+- __Robot aligned button:__ the robot aligned button, when pressed, 
