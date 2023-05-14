@@ -31,5 +31,7 @@
 
 - __Gear button:__ the button with the gera icon must be pressed only when there is a tcp_ip server running in MATLAB on the machine with the IP indicated below the gear, this will send a request to the server to send the system calibration values. 
   - Systme calibration values: is the transformation matrix from the phantom to the robot to make the hololens visualize the holographic twin of the robot superimposed on the real one. The process of computation of the transformation is external to this repository and can be done with different strategies such as an hand-eye calibration by means of an optical tracker. 
+
+- __Path control button__: when pressed toggles the path handle visibility by making the path interactable or not intercatable. 
    
 
