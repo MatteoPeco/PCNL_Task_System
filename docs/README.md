@@ -23,6 +23,6 @@
   
      https://github.com/MatteoPeco/PCNL_Task_System/assets/94977542/748ac946-7058-4d55-b964-a1a99df154df 
 
-
+    Observation: in the demo video the user is using an interface running in the unity play mode on the PC, the result is the same as the hololens application
 
 
