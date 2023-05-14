@@ -63,7 +63,7 @@ The performance metrics shown below include:
 - Insertion procedure accuracy: 
   - Translation error from the target (median ± std.) -> 3.2 ± 1.4 mm 
   - Orientation error with respect to the pre-planned path (median ± std.) ->  1.2 ± 0.9° 
-- Usability: The qualitative feedback gathered through the user questionnaire shown that the proposed system (AA) had the *__highest__* usability compared to all the other setups, inclusding the setup emulating the operating room (SM).
+- Usability: The qualitative feedback gathered through the user questionnaire shown that the proposed system (AA) had the *__highest__* usability compared to all the other setups, including the setup emulating the operating room (SM).
 
 ## Repository Structure
 - src/: Contains the unity project to be uploaded in the Hololens2 and the ROS catkin_ws for the robot control.
