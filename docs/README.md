@@ -1,6 +1,6 @@
 # Hololens graphic interface menu:
 <p align="center">
-  <![menu](https://github.com/MatteoPeco/PCNL_Task_System/assets/94977542/937e08c4-a6fb-4bbe-a4f7-0f25c481c1f0) alt="Alt Text" style="width: 600px;">
+  ![menu](https://github.com/MatteoPeco/PCNL_Task_System/assets/94977542/937e08c4-a6fb-4bbe-a4f7-0f25c481c1f0)
 </p>
 
 ![menu](https://github.com/MatteoPeco/PCNL_Task_System/assets/94977542/937e08c4-a6fb-4bbe-a4f7-0f25c481c1f0)
