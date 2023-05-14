@@ -1,0 +1,2 @@
+ROS-TCP-Endpoint:cartesian_position_node:kuka-lwr/kuka_lwr:kuka-lwr/lwr_controllers:kuka-lwr/lwr_description:kuka-lwr/lwr_hw:kuka-lwr/lwr_robot_tool:kuka-lwr/single_lwr_example/single_lwr_example:kuka-lwr/single_lwr_example/single_lwr_launch:kuka-lwr/single_lwr_example/single_lwr_moveit:kuka-lwr/single_lwr_example/single_lwr_robot:ros_packages/unity_robotics_demo:ros_packages/unity_robotics_demo_msgs
+-DCATKIN_DEVEL_PREFIX=/home/poskuka-nearlab/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/poskuka-nearlab/catkin_ws/install -G Unix Makefiles
