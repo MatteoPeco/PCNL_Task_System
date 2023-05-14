@@ -27,5 +27,6 @@
     
    When the robot is in _Stage3_, its stage can be brought to _Stage1_ by simply pressing the __Cancel__ button appearing in place of the __Robot aligned__ button.
    
+- __Lens button:__
    
 
