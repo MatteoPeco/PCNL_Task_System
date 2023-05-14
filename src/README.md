@@ -21,7 +21,7 @@ To successfully utilize this project, make sure you have the following hardware 
 ## Communication protocol 
 
 <p align="center">
-  <img src="./images/CommunicationProtocol.png" alt="Alt Text" style="width: 600px;">
+  <img src="./images/Communication Protocol.png" alt="Alt Text" style="width: 600px;">
 </p>
 
 ## Installation and Usage
