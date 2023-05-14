@@ -20,9 +20,7 @@ To successfully utilize this project, make sure you have the following hardware 
 
 ## Communication protocol 
 
-<p align="center">
-  <img src="./images/Communication Protocol.png" alt="Alt Text" style="width: 300px;">
-</p>
+![Communication Protocol](https://github.com/MatteoPeco/PCNL_Task_System/assets/94977542/b264d963-5744-41c7-a9d4-d20f4ae1917f)
 
 ## Installation and Usage
 Please refer to the specific subdirectories (`Unity_Project/` and `catkin_ws/`) for detailed installation and usage instructions.
