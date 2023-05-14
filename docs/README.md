@@ -19,7 +19,7 @@
     
     _Stage3_: Cartesian impedence controller implementation.
     
-  ## Control startegy demo video:
+  __Control startegy demo video:__
   
   https://github.com/MatteoPeco/PCNL_Task_System/assets/94977542/748ac946-7058-4d55-b964-a1a99df154df
 
