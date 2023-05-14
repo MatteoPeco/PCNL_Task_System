@@ -8,14 +8,15 @@ This `src/` folder includes two main directories:
 
 To successfully utilize this project, make sure you have the following hardware and software:
 
-- HoloLens 2 (Microsoft, WA, USA)
-- LWR 4+ (KUKA Robotics, Augsburg, Germany)
-- Polaris Vicra (Northern Digital Inc., ON, Canada)
-
-
-
-
-
+- Hardware:
+  - HoloLens 2 (Microsoft, WA, USA)
+  - LWR 4+ (KUKA Robotics, Augsburg, Germany)
+  - Polaris Vicra (Northern Digital Inc., ON, Canada)
+- Software:
+  - Unity3D (Unity Technologies, CA, USA)
+  - Mixed Reality Toolkit (Microsoft, WA, USA)
+  - Ubuntu 16.04, ROS (Open Robotics, CA, USA)
+  - MATLAB (MathWorks, MA, USA)
 
 ## Installation and Usage
 Please refer to the specific subdirectories (`Unity_Project/` and `catkin_ws/`) for detailed installation and usage instructions.
