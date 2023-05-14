@@ -43,9 +43,11 @@ Preview:
 
 https://github.com/MatteoPeco/PCNL_Task_System/assets/94977542/e4aa9d01-229f-4f62-9c8b-fe553e3f999b
 
-Complete demo video at:   
+Complete demo video at:  
 
-https://drive.google.com/file/d/1Bb8xHS0bwqG7Qv82C1dTycltremJzU55/view?usp=share_link
+<p align="center">
+  https://drive.google.com/file/d/1Bb8xHS0bwqG7Qv82C1dTycltremJzU55/view?usp=share_link
+</p>
 
 ## Experimental Validation
 The system's performance and usability were evaluated through experiments involving 14 users with no prior surgery or AR headset experience. The users performed the needle insertion procedure using four different system setups: screen-based manual setup, AR-based manual setup, screen-based + robot assistance setup, and AR-based + robot assistance setup. Each setup was repeated three times, and the users' insertion accuracy was measured.
