@@ -1,1 +1,18 @@
-This folder contains the source code for the project. It is organized into various directories and files that comprise the software implementation.
+This `src/` folder includes two main directories:
+
+1. **Unity Project**: The `Unity_Project/` directory contains the Unity project files specifically designed to be uploaded on the HoloLens device.
+
+2. **ROS Workspace**: The `catkin_ws/` directory contains the ROS workspace. It is intended to be run on Ubuntu and allows for controlling the robot.
+
+## Requirements
+To successfully utilize this project, make sure you have the following hardware and software:
+- HoloLens 2
+(Microsoft, WA, USA)
+![image](https://github.com/MatteoPeco/PCNL_Task_System/assets/94977542/69219664-5511-43c6-b30e-40597701ee42)
+
+
+## Installation and Usage
+Please refer to the specific subdirectories (`Unity_Project/` and `catkin_ws/`) for detailed installation and usage instructions.
+
+## License
+This project is licensed under the [MIT License](LICENSE).
