@@ -18,6 +18,8 @@ To successfully utilize this project, make sure you have the following hardware 
   - Ubuntu 16.04, ROS (Open Robotics, CA, USA)
   - MATLAB (MathWorks, MA, USA)
 
+## Communication protocol 
+
 ## Installation and Usage
 Please refer to the specific subdirectories (`Unity_Project/` and `catkin_ws/`) for detailed installation and usage instructions.
 
