@@ -5,10 +5,16 @@ This `src/` folder includes two main directories:
 2. **ROS Workspace**: The `catkin_ws/` directory contains the ROS workspace. It is intended to be run on Ubuntu and allows for controlling the robot.
 
 ## Requirements
+
 To successfully utilize this project, make sure you have the following hardware and software:
-- HoloLens 2
-(Microsoft, WA, USA)
-![image](https://github.com/MatteoPeco/PCNL_Task_System/assets/94977542/69219664-5511-43c6-b30e-40597701ee42)
+
+- HoloLens 2 (Microsoft, WA, USA)
+- LWR 4+ (KUKA Robotics, Augsburg, Germany)
+- Polaris Vicra (Northern Digital Inc., ON, Canada)
+
+
+
+
 
 
 ## Installation and Usage
