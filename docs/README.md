@@ -21,7 +21,7 @@
     
   __Control startegy demo video:__
   
-             https://github.com/MatteoPeco/PCNL_Task_System/assets/94977542/748ac946-7058-4d55-b964-a1a99df154df width="400px"
+     https://github.com/MatteoPeco/PCNL_Task_System/assets/94977542/748ac946-7058-4d55-b964-a1a99df154df 
 
 
 
