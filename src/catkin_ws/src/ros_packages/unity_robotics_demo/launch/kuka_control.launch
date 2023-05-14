@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="ros_tcp_endpoint" type="default_server_endpoint.py" name="default_server_endpoint"></node>
+  <node pkg="unity_robotics_demo" type="joints_publisher.py" name="joints_publisher"></node>
+  <node pkg="unity_robotics_demo" type="ToolTipPose_subscriber.py" name="ToolTipPose_subscriber"></node>
+  <node pkg="unity_robotics_demo" type="ToolTipPose_publisher.py" name="ToolTipPose_publisher"></node>
+</launch>
