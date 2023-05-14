@@ -58,13 +58,13 @@ The performance metrics shown below include:
 - Insertion procedure accuracy: Assessing the accuracy of needle insertion along the pre-planned path.
 - Usability: Gathering qualitative feedback through a questionnaire to evaluate the user's workload during the tasks.
 
-# Performances:
+## Performances:
 
 - Insertion procedure accuracy: 
   - Translation error from the target (median ± std.) -> 3.2 ± 1.4 mm 
   - Orientation error with respect to the pre-planned path (median ± std.)->  1.2 ± 0.9° 
 
-# Repository Structure
+## Repository Structure
 - src/: Contains the unity project to be uploaded in the Hololens2 and the ROS catkin_ws for the robot control.
 - images/: Contains the images of the repository.
 - docs/: Contains the documentation and user manual for the system.
