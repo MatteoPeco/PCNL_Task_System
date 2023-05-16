@@ -75,7 +75,7 @@ The performance metrics shown below include:
 - videos/: Includes demo videos showcasing the system in action.
 #
 Ita:
-# Sistema basto su Realtà Aumentata e Assistenza Robotica per la procedura di inserzione di una Nefrolitotrissia Percutanea
+# Sistema basato su Realtà Aumentata e Assistenza Robotica per la procedura di inserzione di una Nefrolitotrissia Percutanea
 <p align="center">
   <img src="./images/logoPolitecnicoNearlab.PNG" alt="Alt Text">
 </p>
@@ -89,10 +89,10 @@ Questa repository contiene l'implementazione di un sistema di pianificazione e n
   <img src="./images/SystemCoverWithLabels.png" alt="Alt Text" style="width: 600px;">
 </p>
 
-## Introduction
-PCNL is considered the gold standard for treating patients with kidney stones larger than 20mm. It is a minimally invasive surgical procedure that involves inserting a nephroscope into the kidney to break up the stone and suction out the pieces. However, there are limitations to the procedure, including the surgeon's workload and challenges in precise needle insertion.
+## Introduzione
+La PCNL è considerata lo standard di riferimento per il trattamento dei pazienti con calcoli renali di dimensioni superiori a 20 mm. Si tratta di una procedura chirurgica minimamente invasiva che prevede l'inserimento di un nefroscopio nel rene per frammentare il calcolo e aspirare i frammenti. Tuttavia, ci sono limitazioni alla procedura, tra cui il carico di lavoro del chirurgo e la comlessità nel raggiungere un'inserzione accurata.
 
-To address these limitations, this project proposes an AR-based system that provides real-time visualization and guidance during the PCNL procedure. The system utilizes pre-operative MRI or CT scan images to generate a 3D model and plan the desired path. During the intra-operative phase, the surgeon uses an Optical See Through - Head Mounted Display (OST-HMD) to perform real-time registration and visualize the 3D model hologram superimposed on the patient. The surgeon can validate and adjust the pre-planned path based on intra-operative images and is assisted by a serial robot for needle insertion.
+Per affrontare queste limitazioni, questo progetto propone un sistema basato su RA e assistenza robotica per visualizzare e guidare in tempo reale la procedura PCNL. Il sistema utilizza immagini pre-operatorie di risonanza magnetica (MRI) o tomografia computerizzata (CT) per generare un modello 3D e pianificare il percorso d'inserzione desiderato. Durante la fase intra-operatoria, il chirurgo utilizza un visore "Optical See Through - Head Mounted Display" (OST-HMD) per effettuare la registrazione in tempo reale e visualizzare l'ologramma del modello 3D sovrapposto al paziente. Il chirurgo può convalidare e regolare il percorso d'inserzione in base alle immagini intra-operatorie ed è assistito da un robot seriale per l'inserimento dell'ago.
 
 ## System Architecture
 The proposed system architecture is divided into two phases: the pre-operative and intra-operative phases.
