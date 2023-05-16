@@ -31,8 +31,8 @@ During the pre-operative phase:
 During the intra-operative phase:
 
 4. The surgeon uses an OST-HMD to perform real-time registration 
-6. The surgeon visualize the 3D model hologram superimposed on the patient and validates and adjusts the pre-planned path based on intra-operative images.
-7. A serial robot assists the surgeon during needle insertion, following the pre-planned path.
+5. The surgeon visualize the 3D model hologram superimposed on the patient and validates and adjusts the pre-planned path based on intra-operative images.
+6. A serial robot assists the surgeon during needle insertion, following the pre-planned path.
 
 The system relies on an Optical Tracker (OT) for system calibration and to measure the accuracy. It also utilizes QR code markers and fiducial markers on a phantom model   for accurate registration.
 
@@ -94,21 +94,22 @@ La PCNL è considerata lo standard di riferimento per il trattamento dei pazient
 
 Per affrontare queste limitazioni, questo progetto propone un sistema basato su RA e assistenza robotica per visualizzare e guidare in tempo reale la procedura PCNL. Il sistema utilizza immagini pre-operatorie di risonanza magnetica (MRI) o tomografia computerizzata (CT) per generare un modello 3D e pianificare il percorso d'inserzione desiderato. Durante la fase intra-operatoria, il chirurgo utilizza un visore "Optical See Through - Head Mounted Display" (OST-HMD) per effettuare la registrazione in tempo reale e visualizzare l'ologramma del modello 3D sovrapposto al paziente. Il chirurgo può convalidare e regolare il percorso d'inserzione in base alle immagini intra-operatorie ed è assistito da un robot seriale per l'inserimento dell'ago.
 
-## System Architecture
-The proposed system architecture is divided into two phases: the pre-operative and intra-operative phases.
+## Architettura del Sistema
+Il sistema ha un'architettura è divisa in due fasi: la fase pre-operatoria e la fase intra-operatoria.
 
-During the pre-operative phase:
-1. MRI or CT scan images of the patient are acquired 
-2. The images are segmented to generate a 3D model.
-3. The desired path for needle insertion is planned based on the 3D model.
+Durante la fase pre-operatoria:
 
-During the intra-operative phase:
+Vengono acquisite le immagini di risonanza magnetica (MRI) o tomografia computerizzata (CT) del paziente.
+Le immagini vengono segmentate per generare un modello 3D.
+Viene pianificato il percorso desiderato per l'inserimento dell'ago basato sul modello 3D.
+Durante la fase intra-operatoria:
 
-4. The surgeon uses an OST-HMD to perform real-time registration 
-6. The surgeon visualize the 3D model hologram superimposed on the patient and validates and adjusts the pre-planned path based on intra-operative images.
-7. A serial robot assists the surgeon during needle insertion, following the pre-planned path.
+Il chirurgo utilizza un visore montato sulla testa con tecnologia di trasparenza ottica per effettuare la registrazione in tempo reale.
+Il chirurgo visualizza l'ologramma del modello 3D sovrapposto al paziente e convalida e regola il percorso pre-pianificato in base alle imm
+agini intra-operatorie.
+6. Un robot seriale assiste il chirurgo durante l'inserimento dell'ago, seguendo il percorso pre-pianificato.
 
-The system relies on an Optical Tracker (OT) for system calibration and to measure the accuracy. It also utilizes QR code markers and fiducial markers on a phantom model   for accurate registration.
+Il sistema si basa su un sistema di tracciamento ottico (OT) per la calibrazione del sistema e per misurare l'accuratezza. Utilizza inoltre marcatori QR code e marcatori fiduciali su un modello fantoccio per una registrazione accurata.
 
 <p align="center">
   <img src="./images/SystemArchitecture.png" alt="Alt Text">
