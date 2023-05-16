@@ -49,4 +49,20 @@ Ita.
   <img src="https://github.com/MatteoPeco/PCNL_Task_System/assets/94977542/b79576a7-f6bc-4ef0-b8da-2cd35f1caec3" alt="scanButton" width="400px">
 </p>
 
+- Pulsante Robot aligned: il pulsante di allineamento del robot, quando premuto, consente all'utente di cambiare la fase di controllo del robot.
 
+Strategia di controllo del robot:
+
+Fase 1: Libera manipolazione del robot.
+
+Fase 2: Cambio della rigidità del robot, è la fase in cui premendo il pulsante di allineamento del robot, l'utente imposta un basso valore di resistenza al movimento lungo la direzione dell'ago e alto nelle altre direzioni
+
+Fase 3: Implementazione del controllore di impedenza cartesiana.
+
+__Video dimostrativo della strategia di controllo:__
+
+  https://github.com/MatteoPeco/PCNL_Task_System/assets/94977542/748ac946-7058-4d55-b964-a1a99df154df 
+
+      NB:  nel video dimostrativo l'utente sta utilizzando un'interfaccia sul PC, il risultato è lo stesso dell'applicazione hololens
+      
+Quando il robot si trova nella Fase 3, la sua fase può essere riportata alla Fase 1 semplicemente premendo il pulsante Cancel che appare al posto del pulsante Robot aligned.
