@@ -1,3 +1,5 @@
+Eng.
+
 # Hololens graphic interface menu:
 
 <p align="center">
@@ -33,5 +35,10 @@
   - Systme calibration values: is the transformation matrix from the phantom to the robot to make the hololens visualize the holographic twin of the robot superimposed on the real one. The process of computation of the transformation is external to this repository and can be done with different strategies such as an hand-eye calibration by means of an optical tracker. 
 
 - __Path control button__: when pressed toggles the path handle visibility by making the path interactable or not intercatable. 
+#   
+Ita.
+# Menu dell'interfaccia grafica Hololens:
    
-
+<p align="center">
+  <img src="https://github.com/MatteoPeco/PCNL_Task_System/assets/94977542/937e08c4-a6fb-4bbe-a4f7-0f25c481c1f0" alt="menu" width="600px">
+</p>
