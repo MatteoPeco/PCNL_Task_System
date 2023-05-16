@@ -1,4 +1,4 @@
-La versione in italiano si trova nella seconda metà dei file README della repository
+NB: La versione in italiano si trova nella seconda metà dei file README della repository
 
 # Augmented Reality and Robot-Assisted Needle Insertion for Percutaneous Nephrolithotomy Task
 <p align="center">
