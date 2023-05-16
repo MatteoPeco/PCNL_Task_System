@@ -43,21 +43,21 @@ Ita.
   <img src="https://github.com/MatteoPeco/PCNL_Task_System/assets/94977542/937e08c4-a6fb-4bbe-a4f7-0f25c481c1f0" alt="menu" width="600px">
 </p>
 
-- Pulsante scan: il pulsante di scansione, quando premuto, attiva la funzione di scansione delle Hololens che consente agli occhiali di scannerizzare i QR code e acquisire la loro posizione. Dopo che le posizioni dei 3 QR code sono state acquisite con precisione, il pulsante di stop che appare al posto di quello di scansione fa sì che gli occhiali visualizzino il modello nella posizione corretta.
+- __Pulsante scan:__ il pulsante di scansione, quando premuto, attiva la funzione di scansione delle Hololens che consente agli occhiali di scannerizzare i QR code e acquisire la loro posizione. Dopo che le posizioni dei 3 QR code sono state acquisite con precisione, il pulsante di stop che appare al posto di quello di scansione fa sì che gli occhiali visualizzino il modello nella posizione corretta.
 
 <p align="center">
   <img src="https://github.com/MatteoPeco/PCNL_Task_System/assets/94977542/b79576a7-f6bc-4ef0-b8da-2cd35f1caec3" alt="scanButton" width="400px">
 </p>
 
-- Pulsante Robot aligned: il pulsante di allineamento del robot, quando premuto, consente all'utente di cambiare la fase di controllo del robot.
+- __Pulsante Robot aligned:__ il pulsante di allineamento del robot, quando premuto, consente all'utente di cambiare la fase di controllo del robot.
 
-- Strategia di controllo del robot:
+  - Strategia di controllo del robot:
 
-  Fase 1: Libera manipolazione del robot.
+    Fase 1: Libera manipolazione del robot.
 
-  Fase 2: Cambio della rigidità del robot, è la fase in cui premendo il pulsante di allineamento del robot, l'utente imposta un basso valore di resistenza al movimento   lungo la direzione dell'ago e alto nelle altre direzioni
+    Fase 2: Cambio della rigidità del robot, è la fase in cui premendo il pulsante di allineamento del robot, l'utente imposta un basso valore di resistenza al movimento   lungo la direzione dell'ago e alto nelle altre direzioni
 
-  Fase 3: Implementazione del controllore di impedenza cartesiana.
+    Fase 3: Implementazione del controllore di impedenza cartesiana.
 
 __Video dimostrativo della strategia di controllo:__
 
@@ -66,3 +66,10 @@ __Video dimostrativo della strategia di controllo:__
       NB:  nel video dimostrativo l'utente sta utilizzando un'interfaccia sul PC, il risultato è lo stesso dell'applicazione hololens
       
 Quando il robot si trova nella Fase 3, la sua fase può essere riportata alla Fase 1 semplicemente premendo il pulsante Cancel che appare al posto del pulsante Robot aligned.
+
+- __Pulsante con icona della lente:__ il pulsante con l'icona della lente deve essere premuto solo quando è in esecuzione un server tcp_ip in MATLAB sulla macchina con l'IP indicato sotto la lente, questo invierà l'orientamento dell'end-effector (EE) del robot allo script MATLAB per calcolare l'errore di orientamento della procedura di inserzione.
+
+- __Pulsante con icone dell'ingranaggio:__ il pulsante con l'icona dell'ingranaggio deve essere premuto solo quando è in esecuzione un server tcp_ip in MATLAB sulla macchina con l'IP indicato sotto l'ingranaggio, questo invierà una richiesta al server per inviare i valori di calibrazione del sistema.
+  - Valori di calibrazione del sistema: è la matrice di trasformazione dal manichino al robot per far sì che gli occhiali Hololens visualizzino l'ologramma del robot sovrapposto a quello reale. Il processo di calcolo della trasformazione è esterno a questo repository e può essere effettuato con diverse strategie come l'hand-aye calibration mediante un tracker ottico.
+
+- __Pulsante path control__: quando premuto, alterna la visibilità della maniglia del percorso olografico, rendendo il percorso interattivo o non interattivo.
