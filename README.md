@@ -80,7 +80,7 @@ Ita:
   <img src="./images/logoPolitecnicoNearlab.PNG" alt="Alt Text">
 </p>
 
-    Main authors: Matteo Pecorella, Junling Fu.
+    Autori principali: Matteo Pecorella, Junling Fu.
  
 ***
 Questa repository contiene l'implementazione di un sistema di pianificazione e navigazione chirurgica basato sulla Realtà Aumentata (RA) per la Nefrolitotrissia Percutanea (PCNL) in cui la fase di inserzione è supportata da un robot. L'obiettivo di questo progetto è migliorare la procedura PCNL riducendo il carico di lavoro del chirurgo e ottenendo una maggiore accuratezza nell'inserzione.
@@ -115,38 +115,37 @@ Il sistema si basa su un sistema di tracciamento ottico (OT) per la calibrazione
   <img src="./images/SystemArchitecture.png" alt="Alt Text">
 </p>
 
-## Demo video
+## Video dimostrativo
 
-Preview:
+Anteprima:
 
 https://github.com/MatteoPeco/PCNL_Task_System/assets/94977542/232d6fe9-3dc1-4e2f-8acd-c8fc2c684b77
 
 
-Complete demo video at:  
+Video completo al link:  
 
 <p align="center">
   https://drive.google.com/file/d/1Bb8xHS0bwqG7Qv82C1dTycltremJzU55/view?usp=share_link
 </p>
 
-## Experimental Validation
-The system's performance and usability were evaluated through experiments involving 14 users with no prior surgery or AR headset experience. The users performed the needle insertion procedure using four different system setups: screen-based manual setup (SM), AR-based manual setup (AM), screen-based + robot assistance setup (SA), and AR-based + robot assistance setup (AA). Each setup was repeated three times, and the users' insertion accuracy was measured.
+## Validazione Sperimentale
+Le prestazioni e l'usabilità del sistema sono state valutate attraverso esperimenti che hanno coinvolto 14 utenti senza esperienza pregressa in chirurgia o visori in RA. Gli utenti hanno eseguito la procedura di inserzione utilizzando quattro diverse configurazioni del sistema: configurazione ad inserzione manuale convisualizzazione su schermo (SM), configurazione ad inserzione manuale e visualizzazione in RA (AM), configurazione ad inserzione assistita e visualizzazione su schermo (SA) e configurazione ad inserzione assistita e visualizzazione in RA (AA). Ogni configurazione è stata ripetuta tre volte l'accuratezza di inserzione è stata valutata ad agni inserzione.
 
-The performance metrics shown below include:
+Metriche valutate:
 
-- Insertion procedure accuracy: Assessing the accuracy of needle insertion along the pre-planned path.
-- Usability: Gathering qualitative feedback through a questionnaire to evaluate the user's workload during the tasks.
+Accuratezza della procedura di inserimento: valutazione dell'accuratezza dell'inserimento dell'ago lungo il percorso pre-pianificato.
+Usabilità: raccolta di feedback qualitativi attraverso un questionario per valutare il carico di lavoro dell'utente durante le attività.
 
-## Performances:
+## Prestazioni:
+- Accuratezza della procedura di inserimento:
+   - Errore di traslazione rispetto al target (mediana ± deviazione standard) -> 3,2 ± 1,4 mm
+   - Errore di orientamento rispetto al percorso pre-pianificato (mediana ± deviazione standard) -> 1,2 ± 0,9°
+- Usabilità: I feedback qualitativi raccolti attraverso il questionario degli utenti mostrano che il sistema proposto (AA) ha avuto l'usabilità più elevata rispetto a tutte le altre configurazioni, inclusa la configurazione che emula la sala operatoria (SM).
 
-- Insertion procedure accuracy: 
-  - Translation error from the target (median ± std.) -> 3.2 ± 1.4 mm 
-  - Orientation error with respect to the pre-planned path (median ± std.) ->  1.2 ± 0.9° 
-- Usability: The qualitative feedback gathered through the user questionnaire shown that the proposed system (AA) had the *__highest__* usability compared to all the other setups, including the setup emulating the operating room (SM).
-
-## Repository Structure
-- src/: Contains the unity project to be uploaded in the Hololens2 and the ROS catkin_ws for the robot control.
-- images/: Contains the images of the repository.
-- docs/: Contains the user manual for the system and a more detailed explaination of the robot control strategy.
-- videos/: Includes demo videos showcasing the system in action.
+## Struttura del Repository
+- src/: Contiene il progetto Unity da caricare sulle Hololens2 e la cartella ROS catkin_ws per il controllo del robot.
+- images/: Contiene le immagini del repository.
+- docs/: Contiene il manuale utente del sistema e una spiegazione più dettagliata della strategia di controllo del robot.
+- videos/: Include video dimostrativi che mostrano il sistema in azione.
 
 
