@@ -77,7 +77,7 @@ The performance metrics shown below include:
 
 Ita:
 #
-# Augmented Reality and Robot-Assisted Needle Insertion for Percutaneous Nephrolithotomy Task
+# Sistema basto su Realtà Aumentata e Assistenza Robotica per la procedura di inserzione di una Nefrolitotrissia Percutanea
 <p align="center">
   <img src="./images/logoPolitecnicoNearlab.PNG" alt="Alt Text">
 </p>
