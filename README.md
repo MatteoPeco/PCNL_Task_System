@@ -1,7 +1,6 @@
 NB: La versione in italiano si trova nella seconda metà dei file README della repository
-
-Eng:
 #
+Eng:
 # Augmented Reality and Robot-Assisted Needle Insertion for Percutaneous Nephrolithotomy Task
 <p align="center">
   <img src="./images/logoPolitecnicoNearlab.PNG" alt="Alt Text">
@@ -74,9 +73,8 @@ The performance metrics shown below include:
 - images/: Contains the images of the repository.
 - docs/: Contains the user manual for the system and a more detailed explaination of the robot control strategy.
 - videos/: Includes demo videos showcasing the system in action.
-
-Ita:
 #
+Ita:
 # Sistema basto su Realtà Aumentata e Assistenza Robotica per la procedura di inserzione di una Nefrolitotrissia Percutanea
 <p align="center">
   <img src="./images/logoPolitecnicoNearlab.PNG" alt="Alt Text">
