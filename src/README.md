@@ -1,3 +1,5 @@
+Eng.
+#
 This `src/` folder includes two main directories:
 
 1. **Unity Project**: The `Unity_Project/` directory contains the Unity project files specifically designed to be uploaded on the HoloLens device.
@@ -22,3 +24,6 @@ To successfully utilize this project, make sure you have the following hardware 
 
 ![Communication Protocol](https://github.com/MatteoPeco/PCNL_Task_System/assets/94977542/b264d963-5744-41c7-a9d4-d20f4ae1917f)
 
+#
+Ita.
+#
