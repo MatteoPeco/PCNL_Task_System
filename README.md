@@ -99,17 +99,17 @@ Il sistema ha un'architettura è divisa in due fasi: la fase pre-operatoria e la
 
 Durante la fase pre-operatoria:
 
-Vengono acquisite le immagini di risonanza magnetica (MRI) o tomografia computerizzata (CT) del paziente.
-Le immagini vengono segmentate per generare un modello 3D.
-Viene pianificato il percorso desiderato per l'inserimento dell'ago basato sul modello 3D.
+1. Vengono acquisite le immagini di risonanza magnetica (MRI) o tomografia computerizzata (CT) del paziente.
+2. Le immagini vengono segmentate per generare un modello 3D.
+3. Viene pianificato il percorso per l'inserzione basandosi sul modello 3D.
+
 Durante la fase intra-operatoria:
 
-Il chirurgo utilizza un visore montato sulla testa con tecnologia di trasparenza ottica per effettuare la registrazione in tempo reale.
-Il chirurgo visualizza l'ologramma del modello 3D sovrapposto al paziente e convalida e regola il percorso pre-pianificato in base alle imm
-agini intra-operatorie.
-6. Un robot seriale assiste il chirurgo durante l'inserimento dell'ago, seguendo il percorso pre-pianificato.
+4. Il chirurgo utilizza un visore in RA per effettuare la registrazione in tempo reale.
+5. Il chirurgo visualizza l'ologramma del modello 3D sovrapposto al paziente e convalida e regola il percorso pre-pianificato in base alle immagini intra-operatorie.
+6. Un robot seriale assiste il chirurgo durante l'inserzione, seguendo il percorso pre-pianificato.
 
-Il sistema si basa su un sistema di tracciamento ottico (OT) per la calibrazione del sistema e per misurare l'accuratezza. Utilizza inoltre marcatori QR code e marcatori fiduciali su un modello fantoccio per una registrazione accurata.
+Il sistema si basa su un sistema di tracciamento ottico (OT) per la calibrazione del sistema e per misurare l'accuratezza. Utilizza inoltre QR code e marcature su un manichino per una registrazione accurata.
 
 <p align="center">
   <img src="./images/SystemArchitecture.png" alt="Alt Text">
