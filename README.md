@@ -83,7 +83,7 @@ Ita:
     Main authors: Matteo Pecorella, Junling Fu.
  
 ***
-This repository contains the implementation of an Augmented Reality (AR) visualization-based path planning and navigation system for Percutaneous Nephrolithotomy (PCNL) with robotic-guided needle insertion. The aim of this project is to improve the PCNL procedure by reducing the surgeon's workload and achieving better insertion accuracy.
+Questa repository contiene l'implementazione di un sistema di pianificazione e navigazione chirurgica basato sulla Realtà Aumentata (RA) per la Nefrolitotrissia Percutanea (PCNL) in cui la fase di inserzione è supportata da un robot. L'obiettivo di questo progetto è migliorare la procedura PCNL riducendo il carico di lavoro del chirurgo e ottenendo una maggiore accuratezza nell'inserzione.
 
 <p align="center">
   <img src="./images/SystemCoverWithLabels.png" alt="Alt Text" style="width: 600px;">
