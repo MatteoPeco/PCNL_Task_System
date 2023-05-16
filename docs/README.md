@@ -42,3 +42,11 @@ Ita.
 <p align="center">
   <img src="https://github.com/MatteoPeco/PCNL_Task_System/assets/94977542/937e08c4-a6fb-4bbe-a4f7-0f25c481c1f0" alt="menu" width="600px">
 </p>
+
+- Pulsante scan: il pulsante di scansione, quando premuto, attiva la funzione di scansione delle Hololens che consente agli occhiali di scannerizzare i QR code e acquisire la loro posizione. Dopo che le posizioni dei 3 QR code sono state acquisite con precisione, il pulsante di stop che appare al posto di quello di scansione fa sì che gli occhiali visualizzino il modello nella posizione corretta.
+
+<p align="center">
+  <img src="https://github.com/MatteoPeco/PCNL_Task_System/assets/94977542/b79576a7-f6bc-4ef0-b8da-2cd35f1caec3" alt="scanButton" width="400px">
+</p>
+
+
