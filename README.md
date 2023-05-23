@@ -5,6 +5,9 @@ Eng:
 <p align="center">
   <img src="./images/logoPolitecnicoNearlab.PNG" alt="Alt Text">
 </p>
+<p align="center">
+  <img src="./images/Cover.PNG" alt="Alt Text">
+</p>
 
     Main authors: Matteo Pecorella, Junling Fu.
  
