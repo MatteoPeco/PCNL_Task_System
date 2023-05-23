@@ -82,6 +82,9 @@ Ita:
 <p align="center">
   <img src="./images/logoPolitecnicoNearlab.PNG" alt="Alt Text">
 </p>
+<p align="center">
+  <img src="./images/Cover.jpg" alt="Alt Text"  style="width: 600px;">
+</p>
 
     Autori principali: Matteo Pecorella, Junling Fu.
  
